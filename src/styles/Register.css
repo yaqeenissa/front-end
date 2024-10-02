@@ -1,0 +1,59 @@
+.re-form{
+
+    justify-content: center;
+    margin: 20px ;
+    padding: 20px ;
+    border: 1px solid #eae8e8 ;
+    
+    
+
+
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+label{
+    display: block ;
+    padding: 5px;
+    
+    font-family:  Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    
+
+}
+
+#button{
+    padding: 4px;
+    margin-top: 10px ;
+    border:none;
+    background-color: rgb(212, 212, 212);
+    text-align: center;
+    color: #010000; 
+    margin-right: 5px;
+    
+}
+
+img{
+    padding: auto;
+    max-width: 500px;
+    height: 600px;
+     margin: 20px ;
+    padding: 20px ;
+}
+
+input{
+    padding: 2px;
+    width: fit-content;
+}
+
+form a{
+    text-decoration: none;
+   border: 1px solid rgb(255, 255, 255) ;
+   text-align: center;
+   padding: 3px;
+   background-color: rgb(197, 111, 111);
+   color:rgb(15, 16, 16) ;
+}
