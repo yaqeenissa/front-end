@@ -1,0 +1,17 @@
+.navbar{
+    padding: 10px;
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: rgb(217, 195, 106);
+    padding: 10px 20px ;
+    font-size: 18px ;
+    font-family: Arial, sans-serif;
+
+}

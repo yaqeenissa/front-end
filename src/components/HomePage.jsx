@@ -1,5 +1,14 @@
-export default function homePage(){
-    return(
-        <h1>welcome ,  </h1>
-    )
-}
+import Header from "../assets/Header"
+import Card from "../assets/Card";
+import Footer from "../assets/Footer";
+
+export default function HomePage(){
+    return (
+      <div>
+       
+        <Card />
+     
+        
+      </div>
+    );
+} 
