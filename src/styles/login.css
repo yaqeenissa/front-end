@@ -1,0 +1,34 @@
+.main{
+    justify-content: center;
+    justify-items: center;
+    padding: 100px;
+}
+
+form {
+    border: 1px solid  ;
+    width: 200px;
+    padding: 30px
+
+    
+  
+}
+.titel-login{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 7px;;
+    color: rgb(105, 14, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 25px;
+    background-color: rgb(215, 160, 141);
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+}
+label{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium';
+    color: gray;
+}

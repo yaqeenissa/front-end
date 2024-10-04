@@ -1,17 +1,39 @@
 .navbar{
-    padding: 10px;
+    padding: 400px;
     list-style-type: none;
     display: flex;
     padding: 10px;
     justify-content: space-between;
+
     
 }
-
 .navbar li a{
     text-decoration: none;
-    color: rgb(217, 195, 106);
+    color: rgb(156, 152, 133);
     padding: 10px 20px ;
-    font-size: 18px ;
+    font-size: 20px ;
     font-family: Arial, sans-serif;
 
+}
+.navbar li a:hover{
+    color: rgb(212, 75, 75);
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+ max-height: 150px;
+    background-color: rgba(245, 222, 188, 0.555);
+}
+.logo{
+    max-width: 90px;
+    max-height: 90px;
+}
+.logo-username{
+    display: flex;
+}
+h1{
+    padding-top: 40px;
+}
+nav{
+    padding: 40px;
 }

@@ -1,0 +1,37 @@
+.card{
+  display: inline-block;
+  border:  1px solid rgb(255, 255, 255);
+  box-shadow: 3px 3px 5px  rgb(184, 160, 144);
+  margin: 15px;
+  width: 200px;
+  
+}
+
+.card img{
+  max-width: 200px;
+  max-height: 250px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+img:hover {
+  transform: scale(1.1); /* Zoom in by 10% */
+}
+.name-of-item{
+   font-size:90%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 4px;
+   color: rgb(104, 104, 104);
+   font-style: italic;
+   text-align: center;
+}
+.price{
+
+    font-size: 20px;
+    padding-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}

@@ -1,10 +1,14 @@
 import '../styles/Header.css';
+import logo from "../images/logo1.jpeg"
 
 function Header(){
     return (
-      <header>
-        <h1> logo </h1>
-        <nav>
+      <header className='head'>
+        <div className="logo-username">
+          <img alt="logo" src={logo} className="logo"/>
+          <h1> Welcome , user name  </h1>
+        </div>
+        <nav >
           <ul className="navbar">
             <li>
               <a href="/">HOME</a>

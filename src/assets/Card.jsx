@@ -1,11 +1,12 @@
-import Phashine from "../images/fashion-dress-icon.webp";
+import Phashine from "../images/29.jpg";
+import "../styles/card.css"
 function Card(){
 
     return (
       <div className="card">
-        <img alt="logo" src={Phashine}></img>
-        <h2> Ceylan Closet </h2>
-        <p> new model in palestine can order online </p>
+        <img alt="logo" src={Phashine} />
+        <div className=" name-of-item"> jacet - gray - butu</div>
+        <p className="price"> ₪ 200</p>
       </div>
     );
 }
